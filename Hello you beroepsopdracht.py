@@ -1,4 +1,8 @@
-print("je wordt wakker")
+print("stel je voor...")
+print("je zit op de vloer te spelen met je speelgoed...")
+print("opeens komt je vader binnen en zegt dat je je spullen moet inpakken en dat jullie moeten vertrekken.")
+print("je luistert naar je vader en pakt je favoriete knuffel in samen met essentiële spullen.")
+
 antwoord1 = input ("je wordt om half 8 wakker, ga je ombijten of aankleden? typ O of A: ")
 
 if antwoord1.upper()== "O":
