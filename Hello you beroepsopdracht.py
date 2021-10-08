@@ -1,4 +1,4 @@
-print("doel te behalen: om 9 uur op school komen")
+print("je wordt wakker")
 antwoord1 = input ("je wordt om half 8 wakker, ga je ombijten of aankleden? typ O of A: ")
 
 if antwoord1.upper()== "O":
