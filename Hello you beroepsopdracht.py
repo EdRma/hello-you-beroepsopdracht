@@ -47,35 +47,39 @@ if antwoord1.lower()== "meegaan" or antwoord1.lower()=="1":
          naam = input ("hey, ik ben Ali hoe heet jij? ")
          slowprint("'leuk je te ontmoeten "+ naam + "' zegt Ali.")
          
-         antwoord4 = input("wil je misschien wat brood? het ziet er naar uit dat we nog lang met elkaar zitten. ")
+         vraageten = input("wil je misschien wat brood? het ziet er naar uit dat we nog lang met elkaar zitten. ")
 
-         if antwoord4.lower()=="ja" or antwoord4.lower()=="1":
+         if vraageten.lower()=="ja" or vraageten.lower()=="1":
           slowprint("ali geeft de helft van zijn brood terwijl hij vriendelijk lacht.")
           slowprint("'ik hoop dat er geen oorlog is waar we naartoe gaan, ik heb al dagen niet veilig kunnen slapen' zegt Ali.")
           slowprint("'ons dorp is net aangevallen, ik weet niet eens waar de rest van mijn familie is' zeg je.")
           slowprint("er volgt een ongemakkelijke stilte.")
-          antwoord5 = input("'heb je het koud?' zegt je vader")
+          slowprint("'waar kom je vandaan?' vraagt hij.")
+          slowprint("'Taftan' antwoord je aan hem. 'waar jij?'")
+          slowprint("'Juzzak, dus nog best dichtbij jouw dorp' atwoord hij terug.")
+          slowprint("'je bedoelt Juzzak met het vliegveld?' zeg je nieuwsgierig.")
+          slowprint("'ja, jammer genoeg konden we het vliegtuig niet betalen omdat we zo snel mogelijk weg moesten' zegt hij betreurt.")
+          vraagjas = input("'heb je het koud?' zegt je vader.")
 
-          if antwoord5.lower()=="ja":
-           slowprint("")
-           slowprint("")
-           slowprint("")
+          if vraagjas.lower()=="ja" or vraagjas.lower()=="1":
+           slowprint("hij trekt zijn jas uit en slaat hem om je heen.")
+           slowprint("je lacht naar hem terwijl hij zijn arm om je heen slaat.")
+           slowprint("'het komt allemaal goed'")
            slowprint("")
 
-          elif antwoord5.lower()=="nee":
+          elif vraagjas.lower()=="nee" or vraagjas.lower()=="2":
             slowprint("")
             slowprint("")
             slowprint("")
             slowprint("")
 
-
-          
-
-         elif antwoord4.lower()=="nee" or antwoord4.lower()=="2":
+         elif vraageten.lower()=="nee" or vraageten.lower()=="2":
           slowprint("'dat is oké, ik kan begrijpen als je me niet vertrouwt' zegt hij.")
-          slowprint("")
-          slowprint("")
-          slowprint("")
+          slowprint("'waar kom je vandaan?' vraagt hij.")
+          slowprint("'Taftan' antwoord je aan hem. 'waar jij?'")
+          slowprint("'Juzzak, dus nog best dichtbij jouw dorp' atwoord hij terug.")
+          slowprint("'je bedoelt Juzzak met het vliegveld?' zeg je nieuwsgierig.")
+          slowprint("'ja, jammer genoeg konden we het vliegtuig niet betalen omdat we zo snel mogelijk weg moesten' zegt hij betreurt.")
 
         elif antwoord3.lower()=="lopen":
          slowprint("")
@@ -85,7 +89,7 @@ if antwoord1.lower()== "meegaan" or antwoord1.lower()=="1":
 
          antwoord = input("")
 
-    elif antwoord2.lower()=="waarheid" or antwoord2.lower()=="2":
+    elif antwoord2.lower()=="waarheid" or antwoord2.lower()=="2": #einde 2 en 3 van de 5
         slowprint("")
         slowprint("je zegt dat je die naam helemaal niet kent.")
         slowprint("je vader kijkt je aan met een geschrokken blik.")
