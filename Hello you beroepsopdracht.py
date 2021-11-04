@@ -136,11 +136,11 @@ if antwoord1.lower()== "meegaan" or antwoord1.lower()=="1":
                    slowprint("")
                    slowprint("je gaat naar nederland. je bent al zo ver gekomen. een nieuw begin.")
                    slowprint("na een harde en stressvole 5 weken ben je dan eindelijk herenigd met je moeder, broer en zus.")
-                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 4 van de 8
+                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 4 van de 7
                  elif vraagmoeder2.lower() =="wachten"or vraagmoeder2.lower()=="2":
                    slowprint("")
                    slowprint("je wacht op je moeder in italie, waar jij en je vader 4 weken moeten wachten om de rest van jullie gezin eindelijk te spreken")
-                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 5 van de 8
+                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 5 van de 7
                elif vraagvader.lower()=="nee" or vraagvader.lower()=="2":
                  slowprint("")
                  slowprint("je blijft stil.")
@@ -159,10 +159,70 @@ if antwoord1.lower()== "meegaan" or antwoord1.lower()=="1":
                    slowprint("")
                    slowprint("je gaat naar nederland. je bent al zo ver gekomen. een nieuw begin.")
                    slowprint("na een harde en stressvole 5 weken ben je dan eindelijk herenigd met je moeder, broer en zus.")
-                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 4 van de 8
+                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 4 van de 7
                  elif vraagmoeder2.lower() =="wachten"or vraagmoeder2.lower()=="2":
                    slowprint("je wacht op je moeder in italie, waar jij en je vader 4 weken moeten wachten om de rest van jullie gezin eindelijk te spreken")
-                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 5 van de 8
+                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 5 van de 7
+             elif antwoord5.lower()=="zitten" or antwoord5.lower()=="2":
+               slowprint("")
+               slowprint("je blijft rustig en gaat zitten naast de zwangere vrouw")
+               slowprint("ze houd je stevig vast terwijl de boot het water in wordt geduwd.")
+               slowprint("je zit opgepropt in een gammelbootje met 230 vrouwen en kinderen.")
+               slowprint("het is een lange reis op de middelandse zee.")
+               slowprint("")
+               slowprint("je komt na een reis die voor altijd leek te duren aan in Italie.")
+               slowprint("je stapt uit de drijvende doodskist.")
+               slowprint("na dat jullie zijn gevonden worden jullie naar een vluchtelingenkamp gebracht.")
+               slowprint("je wordt daar in een kamer met een bed, wc en tv.")
+               slowprint("je probeert de tijd te doden door tv te kijken en met je speelgoed te spelen.")
+               slowprint("5 dagen gaan voorbij en je wordt aan een tafel gezet met een vrouw die je taal spreekt.")
+               slowprint("'heb je nog familie die misschien hier zijn?' vraagt ze kalm.")
+               slowprint("je schut je hoofd op en neer.")
+               slowprint("'zou ik misschien zijn naam mogen weten?' vraagt ze")
+               vraagvader = input("vertrouw je ze? ")
+               if vraagvader.lower()=="ja" or vraagvader.lower()=="1":
+                slowprint("")
+                slowprint("je vertelt de naam van je vader aan de ombekende vrouw.")
+                slowprint("je wordt weer terug gestuurd naar je kamer.")
+                slowprint("7 dagen later wordt je weer uit je kamer gehaaald voor iets speciaals.")
+                slowprint("je loopt de de hoek om in de gang en ziet je vader.")
+                slowprint("zijn gezicht licht op en rent op je af.")
+                slowprint("jullie omhelzen elkaar en worden samen naar een familie kamer gebracht waar jullie meer informatie wordt vertelt.")
+                slowprint("'jullie worden vervoerd naar een asielzoekers centrum zoals dit in Nederland' vertelt de vrouw.")
+                slowprint("'dat kunnen we niet doen, ik moet wachten op mijn vrouw en anderen kinderen' reageert je vader snauwend.")
+                slowprint("'we kunnen dat volledig begrijpen maar het belangrijkste is dat we u naar een goede plek moet gaan waar u kunt wachten op uw asiel' reageert de vrouw.")
+                vraagmoeder2 = input("gaan jullie wachten op jullie moeder of gaan jullie naar nederland? ")
+                if vraagmoeder2.lower() =="nederland"or vraagmoeder2.lower()=="1":
+                   slowprint("")
+                   slowprint("je gaat naar nederland. je bent al zo ver gekomen. een nieuw begin.")
+                   slowprint("na een harde en stressvole 5 weken ben je dan eindelijk herenigd met je moeder, broer en zus.")
+                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 4 van de 7
+                elif vraagmoeder2.lower() =="wachten"or vraagmoeder2.lower()=="2":
+                   slowprint("")
+                   slowprint("je wacht op je moeder in italie, waar jij en je vader 4 weken moeten wachten om de rest van jullie gezin eindelijk te spreken")
+                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 5 van de 7
+               elif vraagvader.lower()=="nee" or vraagvader.lower()=="2":
+                 slowprint("")
+                 slowprint("je blijft stil.")
+                 slowprint("'als je me helpt, ben je alleen maar sneller bij je fammilie. voegt ze toe.")
+                 slowprint("je vertelt de naam van je vader aan de ombekende vrouw.")
+                 slowprint("je wordt weer terug gestuurd naar je kamer.")
+                 slowprint("7 dagen later wordt je weer uit je kamer gehaaald voor iets speciaals.")
+                 slowprint("je loopt de de hoek om in de gang en ziet je vader.")
+                 slowprint("zijn gezicht licht op en rent op je af.")
+                 slowprint("jullie omhelzen elkaar en worden samen naar een familie kamer gebracht waar jullie meer informatie wordt vertelt.")
+                 slowprint("'jullie worden vervoerd naar een asielzoekers centrum zoals dit in Nederland' vertelt de vrouw.")
+                 slowprint("'dat kunnen we niet doen, ik moet wachten op mijn vrouw en anderen kinderen' reageert je vader snauwend.")
+                 slowprint("'we kunnen dat volledig begrijpen maar het belangrijkste is dat we u naar een goede plek moet gaan waar u kunt wachten op uw asiel' reageert de vrouw.")
+                 vraagmoeder2 = input("gaan jullie wachten op jullie moeder of gaan jullie naar nederland? ")
+                 if vraagmoeder2.lower() =="nederland"or vraagmoeder2.lower()=="1":
+                   slowprint("")
+                   slowprint("je gaat naar nederland. je bent al zo ver gekomen. een nieuw begin.")
+                   slowprint("na een harde en stressvole 5 weken ben je dan eindelijk herenigd met je moeder, broer en zus.")
+                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 4 van de 7
+                 elif vraagmoeder2.lower() =="wachten"or vraagmoeder2.lower()=="2":
+                   slowprint("je wacht op je moeder in italie, waar jij en je vader 4 weken moeten wachten om de rest van jullie gezin eindelijk te spreken")
+                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 5 van de 7
              elif antwoord5.lower()=="zitten" or antwoord5.lower()=="2":
                slowprint("")
                slowprint("je blijft rustig en gaat zitten naast de zwangere vrouw")
@@ -196,7 +256,33 @@ if antwoord1.lower()== "meegaan" or antwoord1.lower()=="1":
                    slowprint("")
                    slowprint("je gaat naar nederland. je bent al zo ver gekomen. een nieuw begin.")
                    slowprint("na een harde en stressvole 5 weken ben je dan eindelijk herenigd met je moeder, broer en zus.")
-                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")
+                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 4 van de 7
+                 elif vraagmoeder2.lower() =="wachten"or vraagmoeder2.lower()=="2":
+                   slowprint("")
+                   slowprint("je wacht op je moeder in italie, waar jij en je vader 4 weken moeten wachten om de rest van jullie gezin eindelijk te spreken")
+                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 5 van de 7
+               elif vraagvader.lower()=="nee" or vraagvader.lower()=="2":
+                 slowprint("")
+                 slowprint("je blijft stil.")
+                 slowprint("'als je me helpt, ben je alleen maar sneller bij je fammilie. voegt ze toe.")
+                 slowprint("je vertelt de naam van je vader aan de ombekende vrouw.")
+                 slowprint("je wordt weer terug gestuurd naar je kamer.")
+                 slowprint("7 dagen later wordt je weer uit je kamer gehaaald voor iets speciaals.")
+                 slowprint("je loopt de de hoek om in de gang en ziet je vader.")
+                 slowprint("zijn gezicht licht op en rent op je af.")
+                 slowprint("jullie omhelzen elkaar en worden samen naar een familie kamer gebracht waar jullie meer informatie wordt vertelt.")
+                 slowprint("'jullie worden vervoerd naar een asielzoekers centrum zoals dit in Nederland' vertelt de vrouw.")
+                 slowprint("'dat kunnen we niet doen, ik moet wachten op mijn vrouw en anderen kinderen' reageert je vader snauwend.")
+                 slowprint("'we kunnen dat volledig begrijpen maar het belangrijkste is dat we u naar een goede plek moet gaan waar u kunt wachten op uw asiel' reageert de vrouw.")
+                 vraagmoeder2 = input("gaan jullie wachten op jullie moeder of gaan jullie naar nederland? ")
+                 if vraagmoeder2.lower() =="nederland"or vraagmoeder2.lower()=="1":
+                   slowprint("")
+                   slowprint("je gaat naar nederland. je bent al zo ver gekomen. een nieuw begin.")
+                   slowprint("na een harde en stressvole 5 weken ben je dan eindelijk herenigd met je moeder, broer en zus.")
+                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 4 van de 7
+                 elif vraagmoeder2.lower() =="wachten"or vraagmoeder2.lower()=="2":
+                   slowprint("je wacht op je moeder in italie, waar jij en je vader 4 weken moeten wachten om de rest van jullie gezin eindelijk te spreken")
+                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 5 van de 7
            elif vraagmoeder.lower()=="nee" or vraagmoeder.lower()=="2":
             slowprint("")
             slowprint("'ga maar weer slapen, het duurt niet meer zo heel lang'")
@@ -214,7 +300,6 @@ if antwoord1.lower()== "meegaan" or antwoord1.lower()=="1":
             slowprint("'ik zal je vinden schat, maak je maar geen zorgen' zegt je vader benauwd.")
 
             antwoord5 = input("ga je proberen met je vader meetegaan, of blijf je rustig zitten? ")
-
             if antwoord5.lower()=="meegaan" or antwoord5.lower()=="1":
               slowprint("")
               slowprint("je probeert uit de boot te springen en naar je vader te rennen.")
@@ -232,8 +317,69 @@ if antwoord1.lower()== "meegaan" or antwoord1.lower()=="1":
               slowprint("'heb je nog familie die misschien hier zijn?' vraagt ze kalm.")
               slowprint("je schut je hoofd op en neer.")
               slowprint("'zou ik misschien zijn naam mogen weten?' vraagt ze")
-              vraagvader = input("vertrouw je ze? ")
+              vraagvader = input("vertrouw je ze? ") 
+            
               if vraagvader.lower()=="ja" or vraagvader.lower()=="1":
+                slowprint("")
+                slowprint("je vertelt de naam van je vader aan de ombekende vrouw.")
+                slowprint("je wordt weer terug gestuurd naar je kamer.")
+                slowprint("7 dagen later wordt je weer uit je kamer gehaaald voor iets speciaals.")
+                slowprint("je loopt de de hoek om in de gang en ziet je vader.")
+                slowprint("zijn gezicht licht op en rent op je af.")
+                slowprint("jullie omhelzen elkaar en worden samen naar een familie kamer gebracht waar jullie meer informatie wordt vertelt.")
+                slowprint("'jullie worden vervoerd naar een asielzoekers centrum zoals dit in Nederland' vertelt de vrouw.")
+                slowprint("'dat kunnen we niet doen, ik moet wachten op mijn vrouw en anderen kinderen' reageert je vader snauwend.")
+                slowprint("'we kunnen dat volledig begrijpen maar het belangrijkste is dat we u naar een goede plek moet gaan waar u kunt wachten op uw asiel' reageert de vrouw.")
+                vraagmoeder2 = input("gaan jullie wachten op jullie moeder of gaan jullie naar nederland? ")
+                if vraagmoeder2.lower() =="nederland"or vraagmoeder2.lower()=="1":
+                   slowprint("")
+                   slowprint("je gaat naar nederland. je bent al zo ver gekomen. een nieuw begin.")
+                   slowprint("na een harde en stressvole 5 weken ben je dan eindelijk herenigd met je moeder, broer en zus.")
+                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 4 van de 8
+                elif vraagmoeder2.lower() =="wachten"or vraagmoeder2.lower()=="2":
+                   slowprint("")
+                   slowprint("je wacht op je moeder in italie, waar jij en je vader 4 weken moeten wachten om de rest van jullie gezin eindelijk te spreken")
+                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 5 van de 8
+              elif vraagvader.lower()=="nee" or vraagvader.lower()=="2":
+                 slowprint("")
+                 slowprint("je blijft stil.")
+                 slowprint("'als je me helpt, ben je alleen maar sneller bij je fammilie. voegt ze toe.")
+                 slowprint("je vertelt de naam van je vader aan de ombekende vrouw.")
+                 slowprint("je wordt weer terug gestuurd naar je kamer.")
+                 slowprint("7 dagen later wordt je weer uit je kamer gehaaald voor iets speciaals.")
+                 slowprint("je loopt de de hoek om in de gang en ziet je vader.")
+                 slowprint("zijn gezicht licht op en rent op je af.")
+                 slowprint("jullie omhelzen elkaar en worden samen naar een familie kamer gebracht waar jullie meer informatie wordt vertelt.")
+                 slowprint("'jullie worden vervoerd naar een asielzoekers centrum zoals dit in Nederland' vertelt de vrouw.")
+                 slowprint("'dat kunnen we niet doen, ik moet wachten op mijn vrouw en anderen kinderen' reageert je vader snauwend.")
+                 slowprint("'we kunnen dat volledig begrijpen maar het belangrijkste is dat we u naar een goede plek moet gaan waar u kunt wachten op uw asiel' reageert de vrouw.")
+                 vraagmoeder2 = input("gaan jullie wachten op jullie moeder of gaan jullie naar nederland? ")
+                 if vraagmoeder2.lower() =="nederland"or vraagmoeder2.lower()=="1":
+                   slowprint("")
+                   slowprint("je gaat naar nederland. je bent al zo ver gekomen. een nieuw begin.")
+                   slowprint("na een harde en stressvole 5 weken ben je dan eindelijk herenigd met je moeder, broer en zus.")
+                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 4 van de 8
+                 elif vraagmoeder2.lower() =="wachten"or vraagmoeder2.lower()=="2":
+                   slowprint("je wacht op je moeder in italie, waar jij en je vader 4 weken moeten wachten om de rest van jullie gezin eindelijk te spreken")
+                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 5 van de 8
+            elif antwoord5.lower()=="zitten" or antwoord5.lower()=="2":
+               slowprint("")
+               slowprint("je blijft rustig en gaat zitten naast de zwangere vrouw")
+               slowprint("ze houd je stevig vast terwijl de boot het water in wordt geduwd.")
+               slowprint("je zit opgepropt in een gammelbootje met 230 vrouwen en kinderen.")
+               slowprint("het is een lange reis op de middelandse zee.")
+               slowprint("")
+               slowprint("je komt na een reis die voor altijd leek te duren aan in Italie.")
+               slowprint("je stapt uit de drijvende doodskist.")
+               slowprint("na dat jullie zijn gevonden worden jullie naar een vluchtelingenkamp gebracht.")
+               slowprint("je wordt daar in een kamer met een bed, wc en tv.")
+               slowprint("je probeert de tijd te doden door tv te kijken en met je speelgoed te spelen.")
+               slowprint("5 dagen gaan voorbij en je wordt aan een tafel gezet met een vrouw die je taal spreekt.")
+               slowprint("'heb je nog familie die misschien hier zijn?' vraagt ze kalm.")
+               slowprint("je schut je hoofd op en neer.")
+               slowprint("'zou ik misschien zijn naam mogen weten?' vraagt ze")
+               vraagvader = input("vertrouw je ze? ")
+               if vraagvader.lower()=="ja" or vraagvader.lower()=="1":
                  slowprint("")
                  slowprint("je vertelt de naam van je vader aan de ombekende vrouw.")
                  slowprint("je wordt weer terug gestuurd naar je kamer.")
@@ -254,11 +400,11 @@ if antwoord1.lower()== "meegaan" or antwoord1.lower()=="1":
                    slowprint("")
                    slowprint("je wacht op je moeder in italie, waar jij en je vader 4 weken moeten wachten om de rest van jullie gezin eindelijk te spreken")
                    slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 5 van de 8
-              elif vraagvader.lower()=="nee" or vraagvader.lower()=="2":
+               elif vraagvader.lower()=="nee" or vraagvader.lower()=="2":
                  slowprint("")
-                 slowprint("je schut je hoofd van links naar rechts.")
-                 slowprint("'als je het vertelt kunnen jullie weer samen zijn, klinkt dat niet fijn?' vult ze bij.")
-                 slowprint("je veranderd je gedachten en vertelt zijn naam.")
+                 slowprint("je blijft stil.")
+                 slowprint("'als je me helpt, ben je alleen maar sneller bij je fammilie. voegt ze toe.")
+                 slowprint("je vertelt de naam van je vader aan de ombekende vrouw.")
                  slowprint("je wordt weer terug gestuurd naar je kamer.")
                  slowprint("7 dagen later wordt je weer uit je kamer gehaaald voor iets speciaals.")
                  slowprint("je loopt de de hoek om in de gang en ziet je vader.")
@@ -267,14 +413,13 @@ if antwoord1.lower()== "meegaan" or antwoord1.lower()=="1":
                  slowprint("'jullie worden vervoerd naar een asielzoekers centrum zoals dit in Nederland' vertelt de vrouw.")
                  slowprint("'dat kunnen we niet doen, ik moet wachten op mijn vrouw en anderen kinderen' reageert je vader snauwend.")
                  slowprint("'we kunnen dat volledig begrijpen maar het belangrijkste is dat we u naar een goede plek moet gaan waar u kunt wachten op uw asiel' reageert de vrouw.")
-                 vraagmoeder2 = input("gaan jullie wachten op jullie moeder of gaan jullie naar nederland?")
+                 vraagmoeder2 = input("gaan jullie wachten op jullie moeder of gaan jullie naar nederland? ")
                  if vraagmoeder2.lower() =="nederland"or vraagmoeder2.lower()=="1":
                    slowprint("")
                    slowprint("je gaat naar nederland. je bent al zo ver gekomen. een nieuw begin.")
                    slowprint("na een harde en stressvole 5 weken ben je dan eindelijk herenigd met je moeder, broer en zus.")
                    slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 4 van de 8
                  elif vraagmoeder2.lower() =="wachten"or vraagmoeder2.lower()=="2":
-                   slowprint("")
                    slowprint("je wacht op je moeder in italie, waar jij en je vader 4 weken moeten wachten om de rest van jullie gezin eindelijk te spreken")
                    slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 5 van de 8
           elif vraagjas.lower()=="nee" or vraagjas.lower()=="2":
@@ -337,10 +482,96 @@ if antwoord1.lower()== "meegaan" or antwoord1.lower()=="1":
                 slowprint("'we kunnen dat volledig begrijpen maar het belangrijkste is dat we u naar een goede plek moet gaan waar u kunt wachten op uw asiel' reageert de vrouw.")
                 vraagmoeder2 = input("gaan jullie wachten op jullie moeder of gaan jullie naar nederland? ")
                 if vraagmoeder2.lower() =="nederland"or vraagmoeder2.lower()=="1":
+                   slowprint("")
+                   slowprint("je gaat naar nederland. je bent al zo ver gekomen. een nieuw begin.")
+                   slowprint("na een harde en stressvole 5 weken ben je dan eindelijk herenigd met je moeder, broer en zus.")
+                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 4 van de 8
+                elif vraagmoeder2.lower() =="wachten"or vraagmoeder2.lower()=="2":
+                   slowprint("")
+                   slowprint("je wacht op je moeder in italie, waar jij en je vader 4 weken moeten wachten om de rest van jullie gezin eindelijk te spreken")
+                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 5 van de 8
+              elif vraagvader.lower()=="nee" or vraagvader.lower()=="2":
                  slowprint("")
-                 slowprint("je gaat naar nederland. je bent al zo ver gekomen. een nieuw begin.")
-                 slowprint("na een harde en stressvole 5 weken ben je dan eindelijk herenigd met je moeder, broer en zus.")
-                 slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")
+                 slowprint("je blijft stil.")
+                 slowprint("'als je me helpt, ben je alleen maar sneller bij je fammilie. voegt ze toe.")
+                 slowprint("je vertelt de naam van je vader aan de ombekende vrouw.")
+                 slowprint("je wordt weer terug gestuurd naar je kamer.")
+                 slowprint("7 dagen later wordt je weer uit je kamer gehaaald voor iets speciaals.")
+                 slowprint("je loopt de de hoek om in de gang en ziet je vader.")
+                 slowprint("zijn gezicht licht op en rent op je af.")
+                 slowprint("jullie omhelzen elkaar en worden samen naar een familie kamer gebracht waar jullie meer informatie wordt vertelt.")
+                 slowprint("'jullie worden vervoerd naar een asielzoekers centrum zoals dit in Nederland' vertelt de vrouw.")
+                 slowprint("'dat kunnen we niet doen, ik moet wachten op mijn vrouw en anderen kinderen' reageert je vader snauwend.")
+                 slowprint("'we kunnen dat volledig begrijpen maar het belangrijkste is dat we u naar een goede plek moet gaan waar u kunt wachten op uw asiel' reageert de vrouw.")
+                 vraagmoeder2 = input("gaan jullie wachten op jullie moeder of gaan jullie naar nederland? ")
+                 if vraagmoeder2.lower() =="nederland"or vraagmoeder2.lower()=="1":
+                   slowprint("")
+                   slowprint("je gaat naar nederland. je bent al zo ver gekomen. een nieuw begin.")
+                   slowprint("na een harde en stressvole 5 weken ben je dan eindelijk herenigd met je moeder, broer en zus.")
+                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 4 van de 8
+                 elif vraagmoeder2.lower() =="wachten"or vraagmoeder2.lower()=="2":
+                   slowprint("je wacht op je moeder in italie, waar jij en je vader 4 weken moeten wachten om de rest van jullie gezin eindelijk te spreken")
+                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 5 van de 8
+            elif antwoord5.lower()=="zitten" or antwoord5.lower()=="2":
+               slowprint("")
+               slowprint("je blijft rustig en gaat zitten naast de zwangere vrouw")
+               slowprint("ze houd je stevig vast terwijl de boot het water in wordt geduwd.")
+               slowprint("je zit opgepropt in een gammelbootje met 230 vrouwen en kinderen.")
+               slowprint("het is een lange reis op de middelandse zee.")
+               slowprint("")
+               slowprint("je komt na een reis die voor altijd leek te duren aan in Italie.")
+               slowprint("je stapt uit de drijvende doodskist.")
+               slowprint("na dat jullie zijn gevonden worden jullie naar een vluchtelingenkamp gebracht.")
+               slowprint("je wordt daar in een kamer met een bed, wc en tv.")
+               slowprint("je probeert de tijd te doden door tv te kijken en met je speelgoed te spelen.")
+               slowprint("5 dagen gaan voorbij en je wordt aan een tafel gezet met een vrouw die je taal spreekt.")
+               slowprint("'heb je nog familie die misschien hier zijn?' vraagt ze kalm.")
+               slowprint("je schut je hoofd op en neer.")
+               slowprint("'zou ik misschien zijn naam mogen weten?' vraagt ze")
+               vraagvader = input("vertrouw je ze? ")
+               if vraagvader.lower()=="ja" or vraagvader.lower()=="1":
+                 slowprint("")
+                 slowprint("je vertelt de naam van je vader aan de ombekende vrouw.")
+                 slowprint("je wordt weer terug gestuurd naar je kamer.")
+                 slowprint("7 dagen later wordt je weer uit je kamer gehaaald voor iets speciaals.")
+                 slowprint("je loopt de de hoek om in de gang en ziet je vader.")
+                 slowprint("zijn gezicht licht op en rent op je af.")
+                 slowprint("jullie omhelzen elkaar en worden samen naar een familie kamer gebracht waar jullie meer informatie wordt vertelt.")
+                 slowprint("'jullie worden vervoerd naar een asielzoekers centrum zoals dit in Nederland' vertelt de vrouw.")
+                 slowprint("'dat kunnen we niet doen, ik moet wachten op mijn vrouw en anderen kinderen' reageert je vader snauwend.")
+                 slowprint("'we kunnen dat volledig begrijpen maar het belangrijkste is dat we u naar een goede plek moet gaan waar u kunt wachten op uw asiel' reageert de vrouw.")
+                 vraagmoeder2 = input("gaan jullie wachten op jullie moeder of gaan jullie naar nederland? ")
+                 if vraagmoeder2.lower() =="nederland"or vraagmoeder2.lower()=="1":
+                   slowprint("")
+                   slowprint("je gaat naar nederland. je bent al zo ver gekomen. een nieuw begin.")
+                   slowprint("na een harde en stressvole 5 weken ben je dan eindelijk herenigd met je moeder, broer en zus.")
+                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 4 van de 8
+                 elif vraagmoeder2.lower() =="wachten"or vraagmoeder2.lower()=="2":
+                   slowprint("")
+                   slowprint("je wacht op je moeder in italie, waar jij en je vader 4 weken moeten wachten om de rest van jullie gezin eindelijk te spreken")
+                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 5 van de 8
+               elif vraagvader.lower()=="nee" or vraagvader.lower()=="2":
+                 slowprint("")
+                 slowprint("je blijft stil.")
+                 slowprint("'als je me helpt, ben je alleen maar sneller bij je fammilie. voegt ze toe.")
+                 slowprint("je vertelt de naam van je vader aan de ombekende vrouw.")
+                 slowprint("je wordt weer terug gestuurd naar je kamer.")
+                 slowprint("7 dagen later wordt je weer uit je kamer gehaaald voor iets speciaals.")
+                 slowprint("je loopt de de hoek om in de gang en ziet je vader.")
+                 slowprint("zijn gezicht licht op en rent op je af.")
+                 slowprint("jullie omhelzen elkaar en worden samen naar een familie kamer gebracht waar jullie meer informatie wordt vertelt.")
+                 slowprint("'jullie worden vervoerd naar een asielzoekers centrum zoals dit in Nederland' vertelt de vrouw.")
+                 slowprint("'dat kunnen we niet doen, ik moet wachten op mijn vrouw en anderen kinderen' reageert je vader snauwend.")
+                 slowprint("'we kunnen dat volledig begrijpen maar het belangrijkste is dat we u naar een goede plek moet gaan waar u kunt wachten op uw asiel' reageert de vrouw.")
+                 vraagmoeder2 = input("gaan jullie wachten op jullie moeder of gaan jullie naar nederland? ")
+                 if vraagmoeder2.lower() =="nederland"or vraagmoeder2.lower()=="1":
+                   slowprint("")
+                   slowprint("je gaat naar nederland. je bent al zo ver gekomen. een nieuw begin.")
+                   slowprint("na een harde en stressvole 5 weken ben je dan eindelijk herenigd met je moeder, broer en zus.")
+                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 4 van de 8
+                 elif vraagmoeder2.lower() =="wachten"or vraagmoeder2.lower()=="2":
+                   slowprint("je wacht op je moeder in italie, waar jij en je vader 4 weken moeten wachten om de rest van jullie gezin eindelijk te spreken")
+                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 5 van de 8
          elif vraageten.lower()=="nee" or vraageten.lower()=="2":
           slowprint("")
           slowprint("'dat is oké, ik kan begrijpen als je me niet vertrouwt' zegt hij.")
@@ -442,6 +673,44 @@ if antwoord1.lower()== "meegaan" or antwoord1.lower()=="1":
                    slowprint("na een harde en stressvole 5 weken ben je dan eindelijk herenigd met je moeder, broer en zus.")
                    slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 4 van de 8
                  elif vraagmoeder2.lower() =="wachten"or vraagmoeder2.lower()=="2":
+                   slowprint("je wacht op je moeder in italie, waar jij en je vader 4 weken moeten wachten om de rest van jullie gezin eindelijk te spreken")
+                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 5 van de 8
+             elif antwoord5.lower()=="zitten" or antwoord5.lower()=="2":
+               slowprint("")
+               slowprint("je blijft rustig en gaat zitten naast de zwangere vrouw")
+               slowprint("ze houd je stevig vast terwijl de boot het water in wordt geduwd.")
+               slowprint("je zit opgepropt in een gammelbootje met 230 vrouwen en kinderen.")
+               slowprint("het is een lange reis op de middelandse zee.")
+               slowprint("")
+               slowprint("je komt na een reis die voor altijd leek te duren aan in Italie.")
+               slowprint("je stapt uit de drijvende doodskist.")
+               slowprint("na dat jullie zijn gevonden worden jullie naar een vluchtelingenkamp gebracht.")
+               slowprint("je wordt daar in een kamer met een bed, wc en tv.")
+               slowprint("je probeert de tijd te doden door tv te kijken en met je speelgoed te spelen.")
+               slowprint("5 dagen gaan voorbij en je wordt aan een tafel gezet met een vrouw die je taal spreekt.")
+               slowprint("'heb je nog familie die misschien hier zijn?' vraagt ze kalm.")
+               slowprint("je schut je hoofd op en neer.")
+               slowprint("'zou ik misschien zijn naam mogen weten?' vraagt ze")
+               vraagvader = input("vertrouw je ze? ")
+               if vraagvader.lower()=="ja" or vraagvader.lower()=="1":
+                 slowprint("")
+                 slowprint("je vertelt de naam van je vader aan de ombekende vrouw.")
+                 slowprint("je wordt weer terug gestuurd naar je kamer.")
+                 slowprint("7 dagen later wordt je weer uit je kamer gehaaald voor iets speciaals.")
+                 slowprint("je loopt de de hoek om in de gang en ziet je vader.")
+                 slowprint("zijn gezicht licht op en rent op je af.")
+                 slowprint("jullie omhelzen elkaar en worden samen naar een familie kamer gebracht waar jullie meer informatie wordt vertelt.")
+                 slowprint("'jullie worden vervoerd naar een asielzoekers centrum zoals dit in Nederland' vertelt de vrouw.")
+                 slowprint("'dat kunnen we niet doen, ik moet wachten op mijn vrouw en anderen kinderen' reageert je vader snauwend.")
+                 slowprint("'we kunnen dat volledig begrijpen maar het belangrijkste is dat we u naar een goede plek moet gaan waar u kunt wachten op uw asiel' reageert de vrouw.")
+                 vraagmoeder2 = input("gaan jullie wachten op jullie moeder of gaan jullie naar nederland? ")
+                 if vraagmoeder2.lower() =="nederland"or vraagmoeder2.lower()=="1":
+                   slowprint("")
+                   slowprint("je gaat naar nederland. je bent al zo ver gekomen. een nieuw begin.")
+                   slowprint("na een harde en stressvole 5 weken ben je dan eindelijk herenigd met je moeder, broer en zus.")
+                   slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 4 van de 8
+                 elif vraagmoeder2.lower() =="wachten"or vraagmoeder2.lower()=="2":
+                   slowprint("")
                    slowprint("je wacht op je moeder in italie, waar jij en je vader 4 weken moeten wachten om de rest van jullie gezin eindelijk te spreken")
                    slowprint("veel is gebeurd op jullie pad en er zijn misschien wat dingen fout gegaan maar het is achteraf allemaal goed gekomen.")#einde 5 van de 8
            elif vraagmoeder.lower()=="nee" or vraagmoeder.lower()=="2":
@@ -754,7 +1023,7 @@ if antwoord1.lower()== "meegaan" or antwoord1.lower()=="1":
          slowprint("langzaam wordt je wakker in de kar die jullie hadden geweigerd")
 
          antwoord = input("")
-    elif antwoord2.lower()=="waarheid" or antwoord2.lower()=="2": #einde 2 en 3 van de 8
+    elif antwoord2.lower()=="waarheid" or antwoord2.lower()=="2": #einde 2 en 3 van de 7
         slowprint("")
         slowprint("je zegt dat je die naam helemaal niet kent.")
         slowprint("je vader kijkt je aan met een geschrokken blik.")
@@ -763,7 +1032,7 @@ if antwoord1.lower()== "meegaan" or antwoord1.lower()=="1":
         slowprint("je wordt uit de auto gesleurd en weg getrokken van je vader.")
         antwoord3 = input("je ziet je vader een zak over zijn hoofd krijgen, wat ga je doen?(kies schreeuwen of duwen) ")
 
-        if antwoord3.lower()=="schreewen" or antwoord3.lower()=="1": #einde 3 van de 8
+        if antwoord3.lower()=="schreewen" or antwoord3.lower()=="1": #einde 3 van de 7
          slowprint("")
          slowprint("je schreewt je vader je vader zijn naam.")
          slowprint("je vader probeert zich los te worstelen van de gewapende mannen maar faalt.")
@@ -784,7 +1053,7 @@ if antwoord1.lower()== "meegaan" or antwoord1.lower()=="1":
          slowprint("hij kijkt je bedroeft aan een neemt je in zijn armen.")
          slowprint("hij draagt je naar een truck en plaats je naast wat andere kinderen.")
          slowprint("de truck rijd weg, ergens naar een veilige plek.")
-        elif antwoord3.lower()=="duwen" or antwoord3.lower()=="2": #einde 2 van de 8
+        elif antwoord3.lower()=="duwen" or antwoord3.lower()=="2": #einde 2 van de 7
           slowprint("")
           slowprint("je duwt de vreemdelingen die je vast hielden weg.")
           slowprint("je rent naar je vader toe en geeft hem een knuffel omdat je weet dat het misschien je laatste kans is.")
@@ -799,7 +1068,7 @@ if antwoord1.lower()== "meegaan" or antwoord1.lower()=="1":
           slowprint("de mannen die jou en andere kinderen en vrouwen vasthielden worden naast je neergeschoten.")
           print("je ziet soldaten op jullie af komen en enige gevaren te neutraliseren.")
           print("ze nemen jullie mee naar een veilige plek, waar jullie verzorgd zullen worden.")
-elif antwoord1.lower() == "wachten" or antwoord1.lower()=="2": #einde 1 van de 8
+elif antwoord1.lower() == "wachten" or antwoord1.lower()=="2": #einde 1 van de 7
     slowprint("")
     slowprint("je zegt dat je gaat wachten op je familie...")
     slowprint("je vader kijkt je bedroefd aan en geeft je een kus op je voorhoofd.")
