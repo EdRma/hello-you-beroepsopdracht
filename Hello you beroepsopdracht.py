@@ -4,7 +4,7 @@ def slowprint(s):
 	for c in s + '\n':
 		sys.stdout.write(c)
 		sys.stdout.flush()
-		time.sleep(5./100)
+		time.sleep(5/100)
 slowprint("stel je voor...")
 slowprint("het is 1989 en je bent 16 jaar oud.")
 slowprint("de Sovjet-Unie is net uit jullie land vertrokken en er is al een tijd een burgeroorlog gaande.")
